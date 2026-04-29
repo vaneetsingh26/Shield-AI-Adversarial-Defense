@@ -1,0 +1,16 @@
+# Node Modules
+node_modules/
+
+# Environment Variables (Security)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Massive ML Datasets (Your friend will generate these locally)
+*.npy
+!saved_model/threshold.npy
+
+# OS Junk
+.DS_Store
